@@ -1,5 +1,5 @@
-import { randomInt } from "./randomInt";
-import { Database, ExtendedDatabase } from "./Database";
+import { randomInt } from "./randomInt.js";
+import { Database, ExtendedDatabase } from "./Database.js";
 const algorithm = new Database("UHA4");
 // or -> nst algorithm = new Map();
 
